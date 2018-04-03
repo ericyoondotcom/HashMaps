@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{5D227DE7-21BC-4823-AFDC-8EB36D2FF9BA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HashMaps/HashMap.cs">
+    <Files>
+      <File FileName="HashMaps/Program.cs" Line="9" Column="13" />
+      <File FileName="HashMaps/HashMap.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HashMaps PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
