@@ -13,10 +13,13 @@ namespace HashMaps
             hashy["Waldo"] = "hidden";
             hashy["happyface"] = "happy";
 
+            hashy = hashy.Rehash(1);
+
             CoolConsole.WriteLine(hashy["Sadface"]);
             CoolConsole.WriteLine(hashy["Waldo"]);
             CoolConsole.WriteLine(hashy["humpty dumpty"]);
             CoolConsole.WriteLine(hashy["happyface"]);
+
         }
     }
 }

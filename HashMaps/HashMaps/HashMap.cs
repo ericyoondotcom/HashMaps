@@ -38,5 +38,33 @@ namespace HashMaps
                 data[Math.Abs(hash % data.Length)] = ll;
             }
         }
+
+        public HashMap<TKey, TVal> Rehash(int newCount){
+            var newData = new HashMap<TKey, TVal>(newCount);
+            foreach(var ll in data){
+                if (ll == null) continue;
+                foreach(var n in ll){
+                    newData[n.Key] = n.Value;
+                }
+            }
+            return newData;
+        }
+
+        public bool HasValue(TKey key){
+			int hash = key.GetHashCode();
+			var ll = data[Math.Abs(hash % data.Length)];
+			if (ll == null)
+			{
+                return false;
+			}
+			foreach (var n in ll)
+			{
+				if (n.Key.Equals(key))
+				{
+                    return true;
+				}
+			}
+            return false;
+        }
     }
 }
